@@ -1,9 +1,9 @@
 //============================================================================
-// Name        : LP1-016-SFML-SimpleGame.cpp
+// Name        : main.cpp
 // Author      : Samuel Matias
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : LP1-16-SFML-Atividade de laboratório
 //============================================================================
 
 #include <SFML/Graphics.hpp>
@@ -25,13 +25,12 @@ sf::Sprite spawnRaindrop(sf::Texture &texture) {
 
 sf::Sprite spawnBola(sf::Texture &texture) {
 	sf::Sprite bola(texture);
-	int largura = 800 - bola.getLocalBounds().width;
-	int x = rand() % largura;
-	x = x > bola.getLocalBounds().width ? x : bola.getLocalBounds().width;
-	int y = 600 - bola.getLocalBounds().height;
+	sf::FloatRect shape = bola.getGlobalBounds();
+	int largura = shape.width;
+	int x = rand() % (800 - largura);
+	x = x > (largura/2) ? x : (largura/2);
+	int y = 600;
 	bola.setPosition(x, y);
-	bola.setOrigin(bola.getLocalBounds().width / 2.,
-			bola.getLocalBounds().height / 2.);
 	return bola;
 }
 
@@ -51,9 +50,10 @@ void moverBalde(int *velY, int *velX){
 }
 
 void testarLimiteNuvem(int *velX, sf::Sprite sprite){
-	if(sprite.getPosition().x == (0 + 0.5f*2)){
+	sf::FloatRect shape = sprite.getGlobalBounds();
+	if(sprite.getPosition().x < 0){
 		*velX = -*velX;
-	}else if(sprite.getPosition().x == (800 - 0.5f*2)){
+	}else if(sprite.getPosition().x >= (800 - shape.width)){
 		*velX = -*velX;
 	}
 }
@@ -66,6 +66,7 @@ int main() {
 	sf::RenderWindow window(sf::VideoMode(800, 600), "SFML works!",
 			sf::Style::Close | sf::Style::Titlebar);
 	// Opções de abertura da janela: sf::Style::Close + sf::Style::Titlebar + sf::Style::Resize
+
 
 	//Declara variávieis para SFML
 	sf::Texture texturaBola;
@@ -89,9 +90,16 @@ int main() {
 	sf::SoundBuffer bufferOver;
 	sf::Sound overSound;
 
+	sf::SoundBuffer bufferBolaSound;
+	sf::Sound bolaSound;
+
+	sf::SoundBuffer bufferEstouro;
+	sf::Sound estouroSound;
+
 	sf::Music rainMusic;
 
 	sf::Font font;
+
 
 	//Declara variávieis para o jogo
 	int pontos = 0;
@@ -102,20 +110,20 @@ int main() {
 	int velDrop = 5;
 	int velBola = 5;
 	int velNuvemX = 5;
-	int velNuvemY = 0;
 
 	bool pausado = false;
 
-	//Inicializa as variávies.
-	window.setFramerateLimit(60); // Limita os frames
-	window.setVerticalSyncEnabled(true);//limita a sincronização
 
 	//Icone da janela.
 	sf::Image image = sf::Image { };
 	image.loadFromFile("assets/cogumelo.png");
 	window.setIcon(image.getSize().x, image.getSize().y, image.getPixelsPtr());
 
-	// load the images for the droplet and the bucket, 64x64 pixels each
+	window.setFramerateLimit(60); // Limita os frames
+	window.setVerticalSyncEnabled(true);//limita a sincronização
+
+
+	//Inicializa as variávies.
 	textureFundo.loadFromFile("assets/fundo.png");
 	textureDropImage.loadFromFile("assets/droplet.png");
 	texturebucketImage.loadFromFile("assets/bucket.png");
@@ -126,18 +134,24 @@ int main() {
 	fundoImage.setTexture(textureFundo);
 	bucketImage.setTexture(texturebucketImage);
 
+	nuvemImage.setScale(0.5f, 0.5f);
+	nuvemImage.setOrigin(0, -50);
+
 	bucketImage.setOrigin(bucketImage.getLocalBounds().width / 2.,
 			bucketImage.getLocalBounds().height / 2.);
 	bucketImage.setPosition(400, 550);
-
-	nuvemImage.setScale(0.5f, 0.5f);
-	nuvemImage.setOrigin(0,-50);
 
 	bufferDropSound.loadFromFile("assets/drop.wav");
 	dropSound.setBuffer(bufferDropSound);
 
 	bufferOver.loadFromFile("assets/Sonic-Game-Over.ogg");
 	overSound.setBuffer(bufferOver);
+
+	bufferBolaSound.loadFromFile("assets/bola.wav");
+	bolaSound.setBuffer(bufferBolaSound);
+
+	bufferEstouro.loadFromFile("assets/estouro.mp3");
+	estouroSound.setBuffer(bufferEstouro);
 
 	rainMusic.openFromFile("assets/rain.ogg");
 	// start the playback of the background music immediately
@@ -184,17 +198,30 @@ int main() {
 				int y = sf::Mouse::getPosition(window).y;
 				bucketImage.setPosition(x, y);
 			}
+
+			if(event.type == sf::Event::MouseButtonPressed){
+				float mousex = sf::Mouse::getPosition(window).x;
+				float mousey = sf::Mouse::getPosition(window).y;
+
+				sf::FloatRect limites = dropImage.getGlobalBounds();
+
+				if(limites.contains(mousex, mousey)){
+					estouroSound.play();
+					dropImage = spawnRaindrop(textureDropImage);
+				}
+			}
 		}
 		//Fim do loop de eventos.
 
-		//Verifica teclas individualmente independente do loop de eventos.
-		moverBalde(&velBucketY, &velBucketX);
-		testarLimiteNuvem(&velNuvemX, nuvemImage);
-
 		/**********************Atualiza o mundo**********************/
+
 		if (!pausado) { //Pausa a atualização do mundo (barra de espaço)
 
 			//Move objetos.
+
+			moverBalde(&velBucketY, &velBucketX);
+			testarLimiteNuvem(&velNuvemX, nuvemImage);
+
 			bucketImage.setPosition(bucketImage.getPosition().x + velBucketX,
 					bucketImage.getPosition().y + velBucketY);
 
@@ -202,14 +229,14 @@ int main() {
 					dropImage.getPosition().y + velDrop);
 
 			bolaImage.setPosition(bolaImage.getPosition().x,
-								bolaImage.getPosition().y + velBola);
+								bolaImage.getPosition().y - velBola);
 
 
 			nuvemImage.setPosition(nuvemImage.getPosition().x + velNuvemX,
-					nuvemImage.getPosition().y + velNuvemY);
+					nuvemImage.getPosition().y);
 
 
-			if (bolaImage.getPosition().y > 0 - bolaImage.getLocalBounds().height) {
+			if (bolaImage.getPosition().y < 0 - bolaImage.getGlobalBounds().height) {
 				bolaImage = spawnBola(texturaBola);
 			}
 
@@ -230,6 +257,12 @@ int main() {
 				sprintf(str, "Pontos:\t%d", pontos);
 				txtPontos.setString(str);
 				dropImage = spawnRaindrop(textureDropImage);
+			}
+
+			if(bolaImage.getGlobalBounds().intersects(dropImage.getGlobalBounds())){
+				bolaSound.play();
+				bolaImage.setPosition(1000, 1000);
+				bolaImage = spawnBola(texturaBola);
 			}
 
 			//Verifica o fim do jogo.
