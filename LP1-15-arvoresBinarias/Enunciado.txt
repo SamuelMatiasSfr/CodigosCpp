@@ -1,0 +1,13 @@
+1) Implemente uma árvore desenvolvida com arrays.
+
+a) Insere Direita e Insere esquerda recebem o dado e o número do nó que servirá como pai (ou raiz da sub-árvore).
+
+b) Crie uma ávore que seja capaz de comportar até 3 níveis.
+
+c) Crie um main e teste com os seguintes valores:
+{30, 25,40,65,15,32,27}
+Visualize a árvore inserindo os valores em:
+https://www.cs.usfca.edu/~galles/visualization/BST.html
+
+d) experimente inserir os mesmos valores no site, mas de forma ordenada e veja o resultado.:
+{15,25,27,30,32,40,65}
