@@ -1,0 +1,8 @@
+posX,poxY,velX,velY,imagem
+566,243,0,0,gota.png
+462,155,1,0,gota.png
+270,331,1,-1,nuvem.png
+13,245,-1,0,nuvem.png
+264,368,1,1,nuvem.png
+257,232,1,1,gota.png
+60,182,-1,-1,bola.png
