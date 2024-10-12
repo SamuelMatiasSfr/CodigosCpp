@@ -1,0 +1,27 @@
+Classes e Namespaces.
+
+Este é um código SFML, então use uma  cópia de um projeto sfml já configurado e somente troque o main.
+
+Você recebeu o arquivo main.cpp que contem uma versão um pouco mais elaborada do programa bolas da sfml trabalhado nas últimas aulas. Nessa versão uma classe Game foi criada e as funções iniciar, atualizar e desenhar foram criadas para dividir todas as ações que até então eram executadas no main.
+
+Esse arquivo tem também a classe Bola plenamente implementada com construtores padrão, construtor com parametros, apresentação da classe no formato string (toString), além das funções próprias da Bola ( mover, testarColisao e desenhar). Foi incluida também uma função de colisão entre bolinhas. Teste-a e veja a melhora (troque a chamada da colisão por colisão circular).
+
+As tarefas dessa prática são:
+
+1 - Separar o código.
+
+Faça passo a passo sempre testando se uma etapa deu certo!
+
+a) O main deve ficar sozinho num arquivo de nome main.cpp.
+--Nessa etapa transfira todo o restante do código para um arquivo game.hpp e teste.
+
+b) transfira a bola para os arquivos bola.hpp e bola.cpp (cabeçalho separado da implementação).
+--Faça as importações necessárias e teste. O sistema tem que estar funcionando antes de seguir em frente.
+
+Para Casa! (Outra atividade aberta para envio)
+
+c) separe o código da classe Game em game.hpp e game.cpp.
+
+d) Coloque a classe Game dentro do namespace lp1 e também a classe Bola dentro do mesmo namespace.
+--Você pode definir o mesmo namespace em arquivos diferentes desde que os namespaces tenham o mesmo nome.
+--Sempre faça as modificações necessárias para o código continuar funcionando.
