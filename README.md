@@ -3,8 +3,8 @@
 Bem-vindo ao repositório de códigos em C++! 
 
 # Requisitos:
-    - Compilador C: Um compilador compatível com C++11 ou superior
-    - Eclipse IDE (ou outro IDE de sua preferência)
+- Compilador C: Um compilador compatível com C++11 ou superior
+- Eclipse IDE (ou outro IDE de sua preferência)
 
 # Configuração⚙️
 
