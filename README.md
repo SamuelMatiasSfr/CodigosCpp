@@ -10,20 +10,10 @@ Bem-vindo ao repositório de códigos em C++! Estes projetos foram desenvolvidos
 
 Siga as etapas abaixo:
 
-Qualquer IDE:
 1. Clone ou Baixe o Repositório
-    - Baixe e extraia o arquivo zip, copie os arquivos para seu projeto
+    - Baixe e extraia o arquivo zip, copie o projeto desejado para sua pasta workspace
       
 2. Configuração do Projeto
-    - Abra o Eclipse ou seu IDE preferido e importe o projeto
+    - Abra seu pasta workspace no Eclipse ou na sua IDE preferido e importe o projeto
 
-3. Execute o projeto de sua escolha
-
-Eclpse:
-1. Clone ou Baixe o Repositório
-    - Baixe e extraia o arquivo zip
-      
-2. Configuração do Projeto
-    - Abra a pasta(workspace) no Eclipse 
-
-3. Execute o projeto de sua escolha
+3. Execute o projeto
