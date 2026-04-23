@@ -17,7 +17,7 @@ Projeto com atividades de matriz 2x2 e leitura de matriz a partir de arquivo.
 ## Tecnologias usadas
 
 - C++
-- Manipulação de arquivos
+- Eclipse IDE
 
 ## Como executar
 

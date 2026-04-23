@@ -18,7 +18,7 @@ Projeto com exercícios de ponteiros, aritmética de ponteiros e leitura de dado
 ## Tecnologias usadas
 
 - C e C++
-- Manipulação de arquivos CSV
+- Eclipse IDE
 
 ## Como executar
 

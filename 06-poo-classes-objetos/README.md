@@ -26,7 +26,7 @@ Projeto de orientacao a objetos com classe Pessoa e leitura de dados em CSV.
 
 - C++
 - Programação Orientada a Objetos
-- Manipulação de arquivos CSV
+- Eclipse IDE
 
 ## Como executar
 

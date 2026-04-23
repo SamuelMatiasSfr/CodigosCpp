@@ -20,6 +20,7 @@ Projeto de árvore binária implementada com representação em array.
 - C++
 - Programação Orientada a Objetos
 - Estruturas de dados (Árvore Binária)
+- Eclipse IDE
 
 ## Como executar
 

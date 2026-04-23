@@ -20,6 +20,7 @@ Projeto que combina alocação dinâmica de memória com simulação gráfica de
 - C++
 - Programação Orientada a Objetos
 - SFML
+- Eclipse IDE
 
 ## Como executar
 

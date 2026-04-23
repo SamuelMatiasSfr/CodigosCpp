@@ -20,6 +20,7 @@ Projeto com implementação de fila e operações básicas de estrutura FIFO.
 - C++
 - Programação Orientada a Objetos
 - Estruturas de dados (Fila)
+- Eclipse IDE
 
 ## Como executar
 

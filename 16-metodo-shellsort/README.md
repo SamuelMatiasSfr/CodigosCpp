@@ -19,6 +19,7 @@ Projeto com implementação do algoritmo Shell Sort e exibição de trocas duran
 
 - C++
 - Algoritmos de ordenação
+- Eclipse IDE
 
 ## Como executar
 

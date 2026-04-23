@@ -20,6 +20,7 @@ Projeto com implementação dos algoritmos de ordenação por seleção e por in
 
 - C++
 - Algoritmos de ordenação
+- Eclipse IDE
 
 ## Como executar
 

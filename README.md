@@ -14,11 +14,11 @@ Estes projetos foram desenvolvidos como atividades práticas da matéria Linguag
 ## Tecnologias usadas
 
 - C e C++
-- Manipulação de arquivos
 - Estruturas de dados clássicas (pilha, fila e árvores)
 - Programação Orientada a Objetos
 - SFML
 - Algoritmos de ordenação
+- Eclipse IDE
 
 ## Como executar
 

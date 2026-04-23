@@ -20,6 +20,7 @@ Projeto de conta bancária com classe dedicada, encapsulamento e namespace.
 
 - C++
 - Programação Orientada a Objetos
+- Eclipse IDE
 
 ## Como executar
 

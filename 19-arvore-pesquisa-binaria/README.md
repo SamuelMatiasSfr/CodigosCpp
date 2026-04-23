@@ -20,6 +20,7 @@ Projeto com implementação de árvore de pesquisa binária para diferentes tipo
 
 - C e C++
 - Estruturas de dados (Árvore Binária)
+- Eclipse IDE
 
 ## Como executar
 

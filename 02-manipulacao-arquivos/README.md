@@ -18,7 +18,7 @@ Projeto para analisar palavras de um arquivo de texto e identificar termos longo
 ## Tecnologias usadas
 
 - C++  
-- Manipulação de arquivos  
+- Eclipse IDE
 
 ## Como executar
 

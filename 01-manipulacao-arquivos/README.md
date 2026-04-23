@@ -18,7 +18,7 @@ Projeto para buscar uma palavra em um arquivo de texto e substituir por outra.
 ## Tecnologias usadas
 
 - C++  
-- Manipulação de arquivos  
+- Eclipse IDE
 
 ## Como executar
 

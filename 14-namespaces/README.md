@@ -21,6 +21,7 @@ Projeto em SFML com separação de classes em arquivos distintos e organização
 - C++
 - Programação Orientada a Objetos
 - SFML
+- Eclipse IDE
 
 ## Como executar
 

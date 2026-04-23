@@ -18,6 +18,7 @@ Projeto com implementação do algoritmo Quick Sort usando particionamento recur
 
 - C++
 - Algoritmos de ordenação
+- Eclipse IDE
 
 ## Como executar
 

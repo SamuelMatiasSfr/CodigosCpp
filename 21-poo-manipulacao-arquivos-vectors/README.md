@@ -19,7 +19,7 @@ Projeto para ler dados de GPUs em CSV e encontrar opções com menor valor por f
 
 - C++
 - Programação Orientada a Objetos
-- Manipulação de arquivos CSV
+- Eclipse IDE
 
 ## Como executar
 

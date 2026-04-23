@@ -18,7 +18,7 @@ Projeto que simula o movimento de objetos móveis carregados de arquivo CSV.
 
 - C++
 - Programação Orientada a Objetos
-- Manipulação de arquivos CSV
+- Eclipse IDE
 
 ## Como executar
 

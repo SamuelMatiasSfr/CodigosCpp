@@ -21,6 +21,7 @@ Jogo em SFML no qual o jogador move um balde para coletar gotas e evitar obstác
 
 - C++
 - SFML
+- Eclipse IDE
 
 ## Como executar
 

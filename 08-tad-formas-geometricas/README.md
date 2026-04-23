@@ -19,6 +19,7 @@ Projeto com TADs para formas 3D (Cubo e Cilindro), calculando área e volume.
 
 - C++
 - Programação Orientada a Objetos
+- Eclipse IDE
 
 ## Como executar
 

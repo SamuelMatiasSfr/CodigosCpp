@@ -19,7 +19,8 @@ Aplicação gráfica com SFML que reage ao clique do mouse movendo um círculo.
 ## Tecnologias usadas
 
 - C++  
-- SFML  
+- SFML 
+- Eclipse IDE
 
 ## Como executar
 

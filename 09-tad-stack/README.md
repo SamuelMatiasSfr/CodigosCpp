@@ -22,6 +22,7 @@ Projeto com implementação de pilha e operações adicionais sobre a estrutura.
 - C++
 - Programação Orientada a Objetos
 - Estruturas de dados (Stack/Pilha)
+- Eclipse IDE
 
 ## Como executar
 

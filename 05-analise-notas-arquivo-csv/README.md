@@ -18,7 +18,7 @@ Projeto para ler dados de alunos em CSV e calcular medias por subturma.
 ## Tecnologias usadas
 
 - C++
-- Manipulação de arquivos CSV
+- Eclipse IDE
 
 ## Como executar
 

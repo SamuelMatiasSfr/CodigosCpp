@@ -19,6 +19,7 @@ Projeto com implementação de Heap Sort por construção de heap máximo.
 
 - C++
 - Algoritmos de ordenação
+- Eclipse IDE
 
 ## Como executar
 
