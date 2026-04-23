@@ -1,14 +1,3 @@
-/*
-
-Descrição da tarefa:
-
-1) Implementar ordena��o por sele��o e inser��o
-a) Verificar cada algoritmo
-b) Modificar a entrada e verificar o tempo de compilamento (entrada: 1000)
-c) Verficar o exemplo do livro: ordena -> adenor
-
-*/
-
 #include "funcoes.h"
 
 //ATIVIDADES DE SELE��O

@@ -1,15 +1,3 @@
-/*
-
-Descrição da tarefa:
-
-1 ) Carregue os dados do arquivo csv no programa (Solicite ao usu�rio qual arquivo ele quer carregar).
-
-2) Calcule e apresente a media das notas para cada subturma.
-
-3) O programa deve funcionar para qualquer um dos arquivos (eles tem o mesmo formato, mas o tamanho � diverso).
-
-*/
-
 #include <iostream>
 #include <fstream>
 #include <iomanip>

@@ -1,0 +1,5 @@
+Descrição da tarefa:
+
+1) Testar o código de 1 a 20 mostrando o passo a passo do vetor
+2) Fazer o mesmo da atividade 1, mas com um vetor inserido pelo usuário
+3) Fazer o mesmo das atividades 1 e 2, mas com uma string

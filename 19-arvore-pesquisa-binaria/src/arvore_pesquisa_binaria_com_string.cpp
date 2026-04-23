@@ -1,13 +1,3 @@
-/*
-
-Descrição da tarefa:
-
-1. O usu�rio insere uma string
-2. O usu�rio digita um caractere que ser� pesquisado
-3. A pesquisa � realizada e retorna se o registro existe ou n�o na �rvore bin�ria
- 
-*/
-
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>

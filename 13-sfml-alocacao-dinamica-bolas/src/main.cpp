@@ -1,15 +1,3 @@
-/*
-
-Descrição da tarefa:
-
-1 - Aloque dinamicamente um vetor de 5 posi��es de inteiros e insira como valores seus �ndices.
-
-2 - Aloque dinamicamente uma matriz 4 x 4 usando ponteiros e insira em cada posi��o a soma de seus �ndices.
-
-3 - Crie um array dinamicamente alocado de objetos Bola com 10 objetos e insira-os na tela para o arquivo fornecido (Projeto SFML).
-
-*/
-
 #include <iostream>
 #include "Bolas.hpp"
 using namespace std;

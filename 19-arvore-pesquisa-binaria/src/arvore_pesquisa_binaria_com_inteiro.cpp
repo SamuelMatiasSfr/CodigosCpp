@@ -1,15 +1,3 @@
-/*
-
-Descrição da tarefa:
-
-1. O usuário insere um vetor de no máximo 5 números
-
-2. O usuário digita um número que será pesquisado
-
-3. A pesquisa é realizada e retorna se o registro existe ou não na árvore binária
- 
-*/
-
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>

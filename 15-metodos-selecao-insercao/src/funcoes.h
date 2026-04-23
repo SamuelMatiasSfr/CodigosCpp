@@ -10,7 +10,7 @@
 
 using namespace std;
 
-//FUNÇÃO DE INSERÇÃO PARA INTEIROS
+//FUNï¿½ï¿½O DE INSERï¿½ï¿½O PARA INTEIROS
 void insercao(int vetor[], int tam){
 	int j, x;
 
@@ -27,7 +27,7 @@ void insercao(int vetor[], int tam){
 	}
 }
 
-//FUNÇÃO DE INSERÇÃO PARA STRINGS
+//FUNï¿½ï¿½O DE INSERï¿½ï¿½O PARA STRINGS
 void insercaoString(string &palavra, int tam){
 	int j, x;
 
@@ -45,7 +45,7 @@ void insercaoString(string &palavra, int tam){
 }
 
 
-//FUNÇÃO DE SELEÇÃO PARA INTEIROS
+//FUNï¿½ï¿½O DE SELEï¿½ï¿½O PARA INTEIROS
 void selecao(int vetor[], int tam){
 	int min, aux;
 
@@ -61,7 +61,7 @@ void selecao(int vetor[], int tam){
 	}
 }
 
-//FUNÇÃO DE SELEÇÃO PARA STRINGS
+//FUNï¿½ï¿½O DE SELEï¿½ï¿½O PARA STRINGS
 void selecaoString(string &palavra, int tam){
 	int min;
 	char aux;
@@ -83,7 +83,7 @@ void selecaoString(string &palavra, int tam){
 }
 
 
-//DEMAIS FUNÇÕES
+//DEMAIS FUNï¿½ï¿½ES
 double gerarRand(){
 	double resultado= (double) rand()/ INT_MAX;
 	if(resultado>1.0) resultado= 1.0;
@@ -113,4 +113,4 @@ void imprimeString(string palavra, int tam){
 	cout << palavra << endl;
 }
 
-#endif /* FUNCOES_H_ */
+#endif 

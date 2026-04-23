@@ -1,0 +1,5 @@
+Descrição da tarefa:
+
+1) Alocar dinamicamente um vetor de 5 posições de inteiros e inserir como valores seus índices
+2) Alocar dinamicamente uma matriz 4 x 4 usando ponteiros e inserir em cada posição a soma de seus índices
+3) Criar um array dinamicamente alocado de objetos Bola com 10 objetos e inseri-los na tela (projeto SFML)

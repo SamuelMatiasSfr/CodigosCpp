@@ -1,0 +1,11 @@
+Descrição da tarefa:
+
+Versão com inteiros:
+1) O usuário insere um vetor de no máximo 5 números
+2) O usuário digita um número que será pesquisado
+3) A pesquisa é realizada e retorna se o registro existe ou não na árvore binária
+
+Versão com string/caractere:
+1) O usuário insere uma string
+2) O usuário digita um caractere que será pesquisado
+3) A pesquisa é realizada e retorna se o registro existe ou não na árvore binária

@@ -1,16 +1,5 @@
-/*
-
-Descrição da tarefa:
-
-1) Testar o c�digo de 1 a 20 mostrando passo a passo do vetor
-
-2) Fazer a mesma coisa que a 1 mas com um vetor inserido pelo usu�rio
-
-3) Fazer a mesma coisa que a 1 e a 2, mas com uma string
-
-*/
-
 #include <iostream>
+#include <string.h>
 using namespace std;
 
 //FUN��ES PARA INTEIRO

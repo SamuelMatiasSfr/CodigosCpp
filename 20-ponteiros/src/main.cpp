@@ -1,12 +1,4 @@
-//============================================================================
-// Name        : main.cpp
-// Author      : Samuel Matias
-// Version     :
-// Copyright   : Your copyright notice
-// Description :
-//============================================================================
-
-//* QUESTÃO 2
+//* QUESTï¿½O 2
 #include <stdio.h>
 #include <limits.h>
 
@@ -32,7 +24,7 @@ int main(int argc, char **argv) {
 }
 //*/
 
-/* QUESTÃO 3
+/* QUESTï¿½O 3
 #include<stdio.h>
 
 int main(int argc, char **argv) {
@@ -52,7 +44,7 @@ int main(int argc, char **argv) {
 }
 */
 
-/* QUESTÃO 4
+/* QUESTï¿½O 4
 #include <stdio.h>
 int main() {
 	FILE *pFile;
@@ -69,7 +61,7 @@ int main() {
 
 */
 
-/* QUESTÃO 5
+/* QUESTï¿½O 5
 #include <stdio.h>
 #include <stdlib.h>
 

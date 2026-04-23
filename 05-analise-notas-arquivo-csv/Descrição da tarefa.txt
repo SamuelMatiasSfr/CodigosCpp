@@ -1,0 +1,5 @@
+Descrição da tarefa:
+
+1) Carregar os dados de um arquivo CSV no programa (solicitar ao usuário qual arquivo deseja carregar)
+2) Calcular e apresentar a média das notas para cada subturma
+3) Fazer o programa funcionar para qualquer um dos arquivos (mesmo formato, tamanhos diferentes)

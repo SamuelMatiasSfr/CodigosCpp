@@ -1,0 +1,6 @@
+Descrição da tarefa:
+
+1) Implementar ordenação por seleção e inserção
+   a) Verificar cada algoritmo
+   b) Modificar a entrada e verificar o tempo de compilação (entrada: 1000)
+   c) Verificar o exemplo do livro: ordena -> adenor
