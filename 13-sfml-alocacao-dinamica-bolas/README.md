@@ -1,4 +1,4 @@
-﻿# 13 - SFML Alocação Dinâmica de Bolas
+﻿# SFML Alocação Dinâmica de Bolas
 
 Projeto que combina alocação dinâmica de memória com simulação gráfica de bolas em queda.
 

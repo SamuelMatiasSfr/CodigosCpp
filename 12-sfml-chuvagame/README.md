@@ -1,4 +1,4 @@
-﻿# 12 - SFML Chuva Game
+﻿# SFML Chuva Game
 
 Jogo em SFML no qual o jogador move um balde para coletar gotas e evitar obstáculos.
 

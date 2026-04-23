@@ -1,4 +1,4 @@
-﻿# 20 - Ponteiros
+﻿# Ponteiros
 
 Projeto com exercícios de ponteiros, aritmética de ponteiros e leitura de dados.
 

@@ -1,4 +1,4 @@
-﻿# 14 - Namespaces
+﻿# Namespaces
 
 Projeto em SFML com separação de classes em arquivos distintos e organização via namespace.
 

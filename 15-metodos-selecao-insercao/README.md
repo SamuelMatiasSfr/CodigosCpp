@@ -1,4 +1,4 @@
-﻿# 15 - Métodos de Seleção e Inserção
+﻿# Métodos de Seleção e Inserção
 
 Projeto com implementação dos algoritmos de ordenação por seleção e por inserção.
 

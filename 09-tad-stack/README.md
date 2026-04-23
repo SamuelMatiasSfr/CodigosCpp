@@ -1,4 +1,4 @@
-﻿# 09 - TAD Stack
+﻿# TAD Stack
 
 Projeto com implementação de pilha e operações adicionais sobre a estrutura.
 

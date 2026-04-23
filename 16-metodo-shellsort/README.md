@@ -1,4 +1,4 @@
-﻿# 16 - Método Shell Sort
+﻿# Método Shell Sort
 
 Projeto com implementação do algoritmo Shell Sort e exibição de trocas durante a ordenação.
 

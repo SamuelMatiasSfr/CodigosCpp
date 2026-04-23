@@ -1,4 +1,4 @@
-﻿# 08 - TAD Formas Geométricas
+﻿# TAD Formas Geométricas
 
 Projeto com TADs para formas 3D (Cubo e Cilindro), calculando área e volume.
 

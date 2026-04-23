@@ -1,4 +1,4 @@
-﻿# 07 - POO Simulador de Movimento
+﻿# POO Simulador de Movimento
 
 Projeto que simula o movimento de objetos móveis carregados de arquivo CSV.
 

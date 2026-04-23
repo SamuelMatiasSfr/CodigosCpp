@@ -1,4 +1,4 @@
-﻿# 06 - POO Classes e Objetos
+﻿# POO Classes e Objetos
 
 Projeto de orientacao a objetos com classe Pessoa e leitura de dados em CSV.
 

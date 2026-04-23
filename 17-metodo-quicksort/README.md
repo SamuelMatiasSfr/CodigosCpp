@@ -1,4 +1,4 @@
-﻿# 17 - Método Quick Sort
+﻿# Método Quick Sort
 
 Projeto com implementação do algoritmo Quick Sort usando particionamento recursivo.
 

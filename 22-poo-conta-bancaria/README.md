@@ -1,4 +1,4 @@
-﻿# 22 - POO Conta Bancária
+﻿# POO Conta Bancária
 
 Projeto de conta bancária com classe dedicada, encapsulamento e namespace.
 

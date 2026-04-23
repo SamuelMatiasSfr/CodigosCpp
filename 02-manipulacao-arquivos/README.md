@@ -1,4 +1,4 @@
-﻿# 02 - Manipulação de Arquivos
+﻿# Manipulação de Arquivos
 
 Projeto para analisar palavras de um arquivo de texto e identificar termos longos.
 

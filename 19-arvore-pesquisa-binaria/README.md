@@ -1,4 +1,4 @@
-﻿# 19 - Árvore de Pesquisa Binária
+﻿# Árvore de Pesquisa Binária
 
 Projeto com implementação de árvore de pesquisa binária para diferentes tipos de dados.
 

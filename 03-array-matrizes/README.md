@@ -1,4 +1,4 @@
-﻿# 03 - Array e Matrizes
+﻿# Array e Matrizes
 
 Projeto com atividades de matriz 2x2 e leitura de matriz a partir de arquivo.
 

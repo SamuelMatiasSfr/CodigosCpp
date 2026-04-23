@@ -1,4 +1,4 @@
-﻿# 21 - POO Manipulação de Arquivos com Vetores
+﻿# POO Manipulação de Arquivos com Vetores
 
 Projeto para ler dados de GPUs em CSV e encontrar opções com menor valor por fabricante.
 

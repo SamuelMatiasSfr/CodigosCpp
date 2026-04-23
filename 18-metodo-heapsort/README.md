@@ -1,4 +1,4 @@
-﻿# 18 - Método Heap Sort
+﻿# Método Heap Sort
 
 Projeto com implementação de Heap Sort por construção de heap máximo.
 

@@ -1,4 +1,4 @@
-﻿# 05 - Analise de Notas em Arquivo CSV
+﻿# Análise de Notas em Arquivo CSV
 
 Projeto para ler dados de alunos em CSV e calcular medias por subturma.
 

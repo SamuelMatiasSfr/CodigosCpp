@@ -1,4 +1,4 @@
-﻿# 11 - Árvores Binárias
+﻿# Árvores Binárias
 
 Projeto de árvore binária implementada com representação em array.
 

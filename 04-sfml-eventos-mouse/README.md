@@ -1,4 +1,4 @@
-﻿# 04 - SFML Eventos de Mouse
+﻿# SFML Eventos de Mouse
 
 Aplicação gráfica com SFML que reage ao clique do mouse movendo um círculo.
 
