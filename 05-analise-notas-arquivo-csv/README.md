@@ -22,12 +22,8 @@ Projeto para ler dados de alunos em CSV e calcular medias por subturma.
 
 ## Como Executar
 
-### Requisitos
-- Ter o compilador `g++` instalado e configurado no PATH
-
-### Execução
 1. Baixe e extraia o arquivo `.zip` do repositório
 2. Entre na pasta `05-analise-notas-arquivo-csv` no terminal
 3. Compile com: `g++ .\src\main.cpp -o app.exe`
-4. Execute com: `.\app.exe`
+4. Execute com: `\.\app.exe`
 5. Se quiser testar volume maior, ajuste no código para usar `alunos1000.csv`

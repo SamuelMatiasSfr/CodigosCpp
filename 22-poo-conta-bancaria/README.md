@@ -6,7 +6,7 @@ Projeto de conta bancária com classe dedicada, encapsulamento e namespace.
 
 - Praticar encapsulamento de atributos e métodos
 - Aplicar organização de código em múltiplos arquivos
-- Utilizar namespace para agrupar classes 
+- Utilizar namespace para agrupar classes
 
 ## Funcionalidades
 
@@ -24,11 +24,7 @@ Projeto de conta bancária com classe dedicada, encapsulamento e namespace.
 
 ## Como Executar
 
-### Requisitos
-- Ter o compilador `g++` instalado e configurado no PATH
-
-### Execução
 1. Baixe e extraia o arquivo `.zip` do repositório
 2. Entre na pasta `22-poo-conta-bancaria` no terminal
 3. Compile com: `g++ .\src\main.cpp .\src\ContaBancaria.cpp -o app.exe`
-4. Execute com: `.\app.exe`
+4. Execute com: `\.\app.exe`

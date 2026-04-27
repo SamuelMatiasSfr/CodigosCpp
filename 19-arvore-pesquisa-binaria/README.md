@@ -24,12 +24,8 @@ Projeto com implementação de árvore de pesquisa binária para diferentes tipo
 
 ## Como Executar
 
-### Requisitos
-- Ter o compilador `g++` instalado e configurado no PATH
-
-### Execução
 1. Baixe e extraia o arquivo `.zip` do repositório
 2. Entre na pasta `19-arvore-pesquisa-binaria` no terminal
 3. Para a versão com inteiros, compile com: `g++ .\src\arvore_pesquisa_binaria_com_inteiro.cpp -o app_int.exe`
 4. Para a versão com strings/caracteres, compile com: `g++ .\src\arvore_pesquisa_binaria_com_string.cpp -o app_str.exe`
-5. Execute a versão desejada com: `.\app_int.exe` ou `.\app_str.exe`
+5. Execute a versão desejada com: `\.\app_int.exe` ou `\.\app_str.exe`

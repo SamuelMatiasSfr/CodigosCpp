@@ -22,11 +22,7 @@ Projeto com implementação do algoritmo Quick Sort usando particionamento recur
 
 ## Como Executar
 
-### Requisitos
-- Ter o compilador `g++` instalado e configurado no PATH
-
-### Execução
 1. Baixe e extraia o arquivo `.zip` do repositório
 2. Entre na pasta `17-metodo-quicksort` no terminal
 3. Compile com: `g++ .\src\main.cpp -o app.exe`
-4. Execute com: `.\app.exe`
+4. Execute com: `\.\app.exe`

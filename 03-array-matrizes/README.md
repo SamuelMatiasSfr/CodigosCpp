@@ -21,12 +21,8 @@ Projeto com atividades de matriz 2x2 e leitura de matriz a partir de arquivo.
 
 ## Como Executar
 
-### Requisitos
-- Ter o compilador `g++` instalado e configurado no PATH
-
-### Execução
 1. Baixe e extraia o arquivo `.zip` do repositório
 2. Entre na pasta `03-array-matrizes` no terminal
 3. Compile com: `g++ .\src\main.cpp -o app.exe`
-4. Execute com: `.\app.exe`
+4. Execute com: `\.\app.exe`
 5. Mantenha o arquivo de entrada `arquivo.txt` na pasta do projeto para testar a atividade de leitura

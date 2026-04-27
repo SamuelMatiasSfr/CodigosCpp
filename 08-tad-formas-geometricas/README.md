@@ -23,11 +23,7 @@ Projeto com TADs para formas 3D (Cubo e Cilindro), calculando área e volume.
 
 ## Como Executar
 
-### Requisitos
-- Ter o compilador `g++` instalado e configurado no PATH
-
-### Execução
 1. Baixe e extraia o arquivo `.zip` do repositório
 2. Entre na pasta `08-tad-formas-geometricas` no terminal
 3. Compile com: `g++ .\src\main.cpp .\src\Cubo.cpp .\src\Cilindro.cpp -o app.exe`
-4. Execute com: `.\app.exe`
+4. Execute com: `\.\app.exe`

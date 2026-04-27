@@ -24,12 +24,7 @@ Projeto que combina alocação dinâmica de memória com simulação gráfica de
 
 ## Como Executar
 
-### Requisitos
-- Ter o compilador `g++` instalado e configurado no PATH
-- Ter a SFML instalada e configurada (include, lib e DLLs)
-
-### Execução
 1. Baixe e extraia o arquivo `.zip` do repositório
 2. Entre na pasta `13-sfml-alocacao-dinamica-bolas` no terminal
 3. Compile com: `g++ .\src\main.cpp -o app.exe -lsfml-graphics -lsfml-window -lsfml-system`
-4. Execute com: `.\app.exe`
+4. Execute com: `\.\app.exe`

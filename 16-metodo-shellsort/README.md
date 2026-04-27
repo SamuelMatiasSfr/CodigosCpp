@@ -23,11 +23,7 @@ Projeto com implementação do algoritmo Shell Sort e exibição de trocas duran
 
 ## Como Executar
 
-### Requisitos
-- Ter o compilador `g++` instalado e configurado no PATH
-
-### Execução
 1. Baixe e extraia o arquivo `.zip` do repositório
 2. Entre na pasta `18-metodo-shellsort` no terminal
 3. Compile com: `g++ .\src\main.cpp -o app.exe`
-4. Execute com: `.\app.exe`
+4. Execute com: `\.\app.exe`

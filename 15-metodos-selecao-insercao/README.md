@@ -24,11 +24,7 @@ Projeto com implementação dos algoritmos de ordenação por seleção e por in
 
 ## Como Executar
 
-### Requisitos
-- Ter o compilador `g++` instalado e configurado no PATH
-
-### Execução
 1. Baixe e extraia o arquivo `.zip` do repositório
 2. Entre na pasta `15-metodos-selecao-insercao` no terminal
 3. Compile com: `g++ .\src\main.cpp -o app.exe`
-4. Execute com: `.\app.exe`
+4. Execute com: `\.\app.exe`

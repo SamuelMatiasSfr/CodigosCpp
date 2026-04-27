@@ -24,11 +24,7 @@ Projeto com implementação de fila e operações básicas de estrutura FIFO.
 
 ## Como Executar
 
-### Requisitos
-- Ter o compilador `g++` instalado e configurado no PATH
-
-### Execução
 1. Baixe e extraia o arquivo `.zip` do repositório
 2. Entre na pasta `10-tad-fila` no terminal
 3. Compile com: `g++ .\src\main.cpp .\src\Fila.cpp -o app.exe`
-4. Execute com: `.\app.exe`
+4. Execute com: `\.\app.exe`

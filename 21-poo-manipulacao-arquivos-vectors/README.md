@@ -23,12 +23,8 @@ Projeto para ler dados de GPUs em CSV e encontrar opções com menor valor por f
 
 ## Como Executar
 
-### Requisitos
-- Ter o compilador `g++` instalado e configurado no PATH
-
-### Execução
 1. Baixe e extraia o arquivo `.zip` do repositório
 2. Entre na pasta `21-poo-manipulacao-arquivos-vectors` no terminal
 3. Compile com: `g++ .\src\main.cpp -o app.exe`
-4. Execute com: `.\app.exe`
+4. Execute com: `\.\app.exe`
 5. Mantenha `gpus.csv` na pasta do projeto para carregar os dados

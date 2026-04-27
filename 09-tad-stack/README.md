@@ -26,11 +26,7 @@ Projeto com implementação de pilha e operações adicionais sobre a estrutura.
 
 ## Como Executar
 
-### Requisitos
-- Ter o compilador `g++` instalado e configurado no PATH
-
-### Execução
 1. Baixe e extraia o arquivo `.zip` do repositório
 2. Entre na pasta `09-tad-stack` no terminal
 3. Compile com: `g++ .\src\main.cpp .\src\Stack.cpp .\src\Aluno.cpp -o app.exe`
-4. Execute com: `.\app.exe`
+4. Execute com: `\.\app.exe`

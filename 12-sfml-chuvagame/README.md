@@ -25,13 +25,8 @@ Jogo em SFML no qual o jogador move um balde para coletar gotas e evitar obstác
 
 ## Como Executar
 
-### Requisitos
-- Ter o compilador `g++` instalado e configurado no PATH
-- Ter a SFML instalada e configurada (include, lib e DLLs)
-
-### Execução
 1. Baixe e extraia o arquivo `.zip` do repositório
 2. Entre na pasta `12-sfml-chuvagame` no terminal
 3. Compile com: `g++ .\src\main.cpp -o app.exe -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio`
-4. Execute com: `.\app.exe`
+4. Execute com: `\.\app.exe`
 5. Mantenha a pasta `assets` ao lado do executável para carregar recursos do jogo
