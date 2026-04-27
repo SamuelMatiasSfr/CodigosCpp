@@ -15,17 +15,20 @@ Projeto com implementação de fila e operações básicas de estrutura FIFO.
 - Consultar elementos armazenados
 - Limitar quantidade máxima de elementos na estrutura
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 - C++
 - Programação Orientada a Objetos
 - Estruturas de dados (Fila)
 - Eclipse IDE
 
-## Como executar
+## Como Executar
 
-1. Baixe e extraia este repositorio para uma pasta local
-2. Abra o terminal (PowerShell) na pasta extraida do repositorio
-3. Entre na pasta do projeto com: `cd 10-tad-fila`
-4. Compile com: `g++ .\src\main.cpp .\src\Fila.cpp -o app.exe`
-5. Execute com: `.\app.exe`
+### Requisitos
+- Ter o compilador `g++` instalado e configurado no PATH
+
+### Execução
+1. Baixe e extraia o arquivo `.zip` do repositório
+2. Entre na pasta `10-tad-fila` no terminal
+3. Compile com: `g++ .\src\main.cpp .\src\Fila.cpp -o app.exe`
+4. Execute com: `.\app.exe`

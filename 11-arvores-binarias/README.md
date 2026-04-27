@@ -15,18 +15,21 @@ Projeto de árvore binária implementada com representação em array.
 - Inserir no filho direito de um nó pai
 - Imprimir a representação da árvore no terminal
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 - C++
 - Programação Orientada a Objetos
 - Estruturas de dados (Árvore Binária)
 - Eclipse IDE
 
-## Como executar
+## Como Executar
 
-1. Baixe e extraia este repositorio para uma pasta local
-2. Abra o terminal (PowerShell) na pasta extraida do repositorio
-3. Entre na pasta do projeto com: `cd 11-arvores-binarias`
-4. Compile com: `g++ .\src\main.cpp -o app.exe`
-5. Execute com: `.\app.exe`
-6. Para comparar visualmente, insira os mesmos valores no simulador indicado em `Descrição da tarefa.txt`
+### Requisitos
+- Ter o compilador `g++` instalado e configurado no PATH
+
+### Execução
+1. Baixe e extraia o arquivo `.zip` do repositório
+2. Entre na pasta `11-arvores-binarias` no terminal
+3. Compile com: `g++ .\src\main.cpp -o app.exe`
+4. Execute com: `.\app.exe`
+5. Para comparar visualmente, insira os mesmos valores no simulador indicado em `Descrição da tarefa.txt`

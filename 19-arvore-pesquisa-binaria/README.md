@@ -16,17 +16,20 @@ Projeto com implementação de árvore de pesquisa binária para diferentes tipo
 - Remover nó da árvore usando antecessor
 - Testar variações com inteiros e caracteres
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 - C e C++
 - Estruturas de dados (Árvore Binária)
 - Eclipse IDE
 
-## Como executar
+## Como Executar
 
-1. Baixe e extraia este repositorio para uma pasta local
-2. Abra o terminal (PowerShell) na pasta extraida do repositorio
-3. Entre na pasta do projeto com: `cd 19-arvore-pesquisa-binaria`
-4. Para a versao com inteiros, compile com: `g++ .\src\arvore_pesquisa_binaria_com_inteiro.cpp -o app_int.exe`
-5. Para a versao com strings/caracteres, compile com: `g++ .\src\arvore_pesquisa_binaria_com_string.cpp -o app_str.exe`
-6. Execute a versão desejada com: `.\app_int.exe` ou `.\app_str.exe`
+### Requisitos
+- Ter o compilador `g++` instalado e configurado no PATH
+
+### Execução
+1. Baixe e extraia o arquivo `.zip` do repositório
+2. Entre na pasta `19-arvore-pesquisa-binaria` no terminal
+3. Para a versão com inteiros, compile com: `g++ .\src\arvore_pesquisa_binaria_com_inteiro.cpp -o app_int.exe`
+4. Para a versão com strings/caracteres, compile com: `g++ .\src\arvore_pesquisa_binaria_com_string.cpp -o app_str.exe`
+5. Execute a versão desejada com: `.\app_int.exe` ou `.\app_str.exe`

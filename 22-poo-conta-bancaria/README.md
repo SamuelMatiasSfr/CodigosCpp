@@ -16,16 +16,19 @@ Projeto de conta bancária com classe dedicada, encapsulamento e namespace.
 - Exibir conta em formato textual
 - Executar rotinas de questões no arquivo principal
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 - C++
 - Programação Orientada a Objetos
 - Eclipse IDE
 
-## Como executar
+## Como Executar
 
-1. Baixe e extraia este repositório para uma pasta local
-2. Abra o terminal (PowerShell) na pasta extraída do repositório
-3. Entre na pasta do projeto com: `cd 22-poo-conta-bancaria`
-4. Compile com: `g++ .\src\main.cpp .\src\ContaBancaria.cpp -o app.exe`
-5. Execute com: `.\app.exe`
+### Requisitos
+- Ter o compilador `g++` instalado e configurado no PATH
+
+### Execução
+1. Baixe e extraia o arquivo `.zip` do repositório
+2. Entre na pasta `22-poo-conta-bancaria` no terminal
+3. Compile com: `g++ .\src\main.cpp .\src\ContaBancaria.cpp -o app.exe`
+4. Execute com: `.\app.exe`

@@ -16,17 +16,20 @@ Aplicação gráfica com SFML que reage ao clique do mouse movendo um círculo.
 - Mover o círculo para a posição clicada  
 - Renderizar o objeto a cada frame  
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 - C++  
 - SFML 
 - Eclipse IDE
 
-## Como executar
+## Como Executar
 
-1. Baixe e extraia este repositório para uma pasta local  
-2. Instale e configure a SFML no seu ambiente (include, lib e DLLs no PATH ou junto ao executável)
-3. Abra o terminal (PowerShell) na pasta extraída do repositório
-4. Entre na pasta do projeto com: `cd 04-sfml-eventos-mouse` 
-5. Compile com: `g++ .\main.cpp -o app.exe -lsfml-graphics -lsfml-window -lsfml-system`.
-6. Execute com: `.\app.exe`
+### Requisitos
+- Ter o compilador `g++` instalado e configurado no PATH
+- Ter a SFML instalada e configurada (include, lib e DLLs)
+
+### Execução
+1. Baixe e extraia o arquivo `.zip` do repositório
+2. Entre na pasta `04-sfml-eventos-mouse` no terminal
+3. Compile com: `g++ .\main.cpp -o app.exe -lsfml-graphics -lsfml-window -lsfml-system`
+4. Execute com: `.\app.exe`

@@ -1,6 +1,6 @@
 # Códigos em C++
 
-Estes projetos foram desenvolvidos como atividades práticas da matéria Linguagem e Técnicas de Programação 1 no curso técnico de informática do CEFET-MG.
+Estes projetos foram desenvolvidos como atividades práticas da matéria Linguagem e Técnicas de Programação I no curso técnico de informática do CEFET-MG.
 
 ## Objetivos
 
@@ -11,21 +11,24 @@ Estes projetos foram desenvolvidos como atividades práticas da matéria Linguag
 - Trabalhar com leitura e escrita de arquivos texto e CSV para tratamento de dados
 - Implementar miniaplicações gráficas e jogos simples com SFML
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 - C e C++
-- Estruturas de dados clássicas (pilha, fila e árvores)
 - Programação Orientada a Objetos
 - SFML
+- Estruturas de dados clássicas (pilha, fila e árvores)
 - Algoritmos de ordenação
 - Eclipse IDE
 
-## Como executar
+## Como Executar
 
-1. Baixe e extraia o arquivo zip com os projetos
-2. Abra o projeto desejado na IDE de sua preferência
-3. Consulte o `README.md` da pasta do mini-projeto para os passos específicos
-4. Compile e execute a classe que possui a função `main`
+### Requisitos
+- Ter o compilador `g++` instalado e configurado no PATH
+- (Para projetos gráficos) Ter a SFML instalada e configurada (include, lib e DLLs)
+
+### Execução
+1. Baixe e extraia o arquivo `.zip` com os projetos
+2. Siga as instruções específicas no `README.md` do projeto
 
 ## Projetos
 

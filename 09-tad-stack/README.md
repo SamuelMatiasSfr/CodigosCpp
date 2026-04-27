@@ -17,17 +17,20 @@ Projeto com implementação de pilha e operações adicionais sobre a estrutura.
 - Dividir uma pilha em duas metades
 - Somar os elementos da pilha
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 - C++
 - Programação Orientada a Objetos
 - Estruturas de dados (Stack/Pilha)
 - Eclipse IDE
 
-## Como executar
+## Como Executar
 
-1. Baixe e extraia este repositorio para uma pasta local
-2. Abra o terminal (PowerShell) na pasta extraida do repositorio
-3. Entre na pasta do projeto com: `cd 09-tad-stack`
-4. Compile com: `g++ .\src\main.cpp .\src\Stack.cpp .\src\Aluno.cpp -o app.exe`
-5. Execute com: `.\app.exe`
+### Requisitos
+- Ter o compilador `g++` instalado e configurado no PATH
+
+### Execução
+1. Baixe e extraia o arquivo `.zip` do repositório
+2. Entre na pasta `09-tad-stack` no terminal
+3. Compile com: `g++ .\src\main.cpp .\src\Stack.cpp .\src\Aluno.cpp -o app.exe`
+4. Execute com: `.\app.exe`

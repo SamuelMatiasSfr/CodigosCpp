@@ -15,16 +15,19 @@ Projeto com implementação de Heap Sort por construção de heap máximo.
 - Ordenar array por extração do maior elemento
 - Exibir o progresso das trocas no terminal
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 - C++
 - Algoritmos de ordenação
 - Eclipse IDE
 
-## Como executar
+## Como Executar
 
-1. Baixe e extraia este repositorio para uma pasta local
-2. Abra o terminal (PowerShell) na pasta extraida do repositorio
-3. Entre na pasta do projeto com: `cd 18-metodo-heapsort`
-4. Compile com: `g++ .\src\main.cpp -o app.exe`
-5. Execute com: `.\app.exe`
+### Requisitos
+- Ter o compilador `g++` instalado e configurado no PATH
+
+### Execução
+1. Baixe e extraia o arquivo `.zip` do repositório
+2. Entre na pasta `18-metodo-heapsort` no terminal
+3. Compile com: `g++ .\src\main.cpp -o app.exe`
+4. Execute com: `.\app.exe`

@@ -16,16 +16,19 @@ Projeto com implementação dos algoritmos de ordenação por seleção e por in
 - Ordenar string por inserção
 - Exibir arrays antes e depois da ordenação
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 - C++
 - Algoritmos de ordenação
 - Eclipse IDE
 
-## Como executar
+## Como Executar
 
-1. Baixe e extraia este repositorio para uma pasta local
-2. Abra o terminal (PowerShell) na pasta extraida do repositorio
-3. Entre na pasta do projeto com: `cd 15-metodos-selecao-insercao`
-4. Compile com: `g++ .\src\main.cpp -o app.exe`
-5. Execute com: `.\app.exe`
+### Requisitos
+- Ter o compilador `g++` instalado e configurado no PATH
+
+### Execução
+1. Baixe e extraia o arquivo `.zip` do repositório
+2. Entre na pasta `15-metodos-selecao-insercao` no terminal
+3. Compile com: `g++ .\src\main.cpp -o app.exe`
+4. Execute com: `.\app.exe`

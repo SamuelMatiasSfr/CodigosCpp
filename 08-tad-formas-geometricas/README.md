@@ -15,16 +15,19 @@ Projeto com TADs para formas 3D (Cubo e Cilindro), calculando área e volume.
 - Calcular área e volume de cilindro
 - Exibir resultados dos cálculos no terminal
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 - C++
 - Programação Orientada a Objetos
 - Eclipse IDE
 
-## Como executar
+## Como Executar
 
-1. Baixe e extraia este repositorio para uma pasta local
-2. Abra o terminal (PowerShell) na pasta extraida do repositório
-3. Entre na pasta do projeto com: `cd 08-tad-formas-geometricas`
-4. Compile com: `g++ .\src\main.cpp .\src\Cubo.cpp .\src\Cilindro.cpp -o app.exe`
-5. Execute com: `.\app.exe`
+### Requisitos
+- Ter o compilador `g++` instalado e configurado no PATH
+
+### Execução
+1. Baixe e extraia o arquivo `.zip` do repositório
+2. Entre na pasta `08-tad-formas-geometricas` no terminal
+3. Compile com: `g++ .\src\main.cpp .\src\Cubo.cpp .\src\Cilindro.cpp -o app.exe`
+4. Execute com: `.\app.exe`

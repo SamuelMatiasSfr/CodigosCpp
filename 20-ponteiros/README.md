@@ -15,16 +15,19 @@ Projeto com exercícios de ponteiros, aritmética de ponteiros e leitura de dado
 - Ler e manipular dados a partir de arquivo
 - Testar exercícios propostos em funções separadas
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 - C e C++
 - Eclipse IDE
 
-## Como executar
+## Como Executar
 
-1. Baixe e extraia este repositorio para uma pasta local
-2. Abra o terminal (PowerShell) na pasta extraida do repositorio
-3. Entre na pasta do projeto com: `cd 20-ponteiros`
-4. Compile com: `g++ .\src\main.cpp -o app.exe`
-5. Execute com: `.\app.exe`
-6. Se houver leitura de arquivo nos testes ativos, mantenha `dados.csv` na pasta do projeto
+### Requisitos
+- Ter o compilador `g++` instalado e configurado no PATH
+
+### Execução
+1. Baixe e extraia o arquivo `.zip` do repositório
+2. Entre na pasta `20-ponteiros` no terminal
+3. Compile com: `g++ .\src\main.cpp -o app.exe`
+4. Execute com: `.\app.exe`
+5. Se houver leitura de arquivo nos testes ativos, mantenha `dados.csv` na pasta do projeto

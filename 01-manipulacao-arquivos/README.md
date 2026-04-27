@@ -15,16 +15,15 @@ Projeto para buscar uma palavra em um arquivo de texto e substituir por outra.
 - Substituir a palavra buscada por uma nova palavra  
 - Salvar o resultado da substituição no arquivo  
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 - C++  
 - Eclipse IDE
 
-## Como executar
+## Como Executar
 
-1. Baixe e extraia este repositório para uma pasta local  
-2. Abra o terminal (PowerShell) na pasta extraída do repositório  
-3. Entre na pasta do projeto com: `cd 01-manipulacao-arquivos`  
-4. Compile com: `g++ .\src\main.cpp -o app.exe`  
-5. Execute com: `.\app.exe`  
-6. Informe no terminal o nome do arquivo e as palavras para busca/substituição  
+1. Baixe e extraia o arquivo `.zip` do repositório
+2. Entre na pasta `01-manipulacao-arquivo` no terminal  
+3. Compile com: `g++ .\src\main.cpp -o app.exe`  
+4. Execute com: `.\app.exe`  
+5. Informe no terminal o nome do arquivo e as palavras para busca/substituição  

@@ -15,16 +15,15 @@ Projeto para analisar palavras de um arquivo de texto e identificar termos longo
 - Identificar a maior palavra com mais de 15 caracteres  
 - Contar palavras acima do tamanho mínimo definido  
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 - C++  
 - Eclipse IDE
 
-## Como executar
+## Como Executar
 
-1. Baixe e extraia este repositório para uma pasta local  
-2. Abra o terminal (PowerShell) na pasta extraída do repositório  
-3. Entre na pasta do projeto com: `cd 02-manipulacao-arquivos`  
-4. Compile com: `g++ .\src\main.cpp -o app.exe`  
-5. Execute com: `.\app.exe`  
-6. Ajuste o nome do arquivo de entrada no código, se necessário (ex.: NovoTestamento.txt ou VelhoTestamento.txt)  
+1. Baixe e extraia o arquivo `.zip` do repositório
+2. Entre na pasta `02-manipulacao-arquivos` no terminal
+3. Compile com: `g++ .\src\main.cpp -o app.exe`  
+4. Execute com: `.\app.exe`  
+5. Ajuste o nome do arquivo de entrada no código, se necessário (ex.: NovoTestamento.txt ou VelhoTestamento.txt)  

@@ -14,16 +14,19 @@ Projeto com atividades de matriz 2x2 e leitura de matriz a partir de arquivo.
 - Substituir números por caracteres conforme regra definida
 - Exibir a matriz resultante no terminal
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 - C++
 - Eclipse IDE
 
-## Como executar
+## Como Executar
 
-1. Baixe e extraia este repositorio para uma pasta local
-2. Abra o terminal (PowerShell) na pasta extraida do repositorio
-3. Entre na pasta do projeto com: `cd 03-array-matrizes`
-4. Compile com: `g++ .\src\main.cpp -o app.exe`
-5. Execute com: `.\app.exe`
-6. Mantenha o arquivo de entrada `arquivo.txt` na pasta do projeto para testar a atividade de leitura
+### Requisitos
+- Ter o compilador `g++` instalado e configurado no PATH
+
+### Execução
+1. Baixe e extraia o arquivo `.zip` do repositório
+2. Entre na pasta `03-array-matrizes` no terminal
+3. Compile com: `g++ .\src\main.cpp -o app.exe`
+4. Execute com: `.\app.exe`
+5. Mantenha o arquivo de entrada `arquivo.txt` na pasta do projeto para testar a atividade de leitura
