@@ -26,9 +26,8 @@ Estes projetos foram desenvolvidos como atividades práticas da matéria Linguag
 - Ter o compilador `g++` instalado e configurado no PATH
 - (Para projetos gráficos) Ter a SFML instalada e configurada (include, lib e DLLs)
 
-> ⚠️ **Observação:**  
-> Os tutoriais utilizam o compilador `g++` como exemplo padrão.  
-> Os projetos podem ser compilados com outros compiladores (como MSVC, Clang, entre outros), porém podem ser necessárias adaptações nos comandos de compilação, configuração de bibliotecas (como a SFML) e no ambiente de desenvolvimento.
+> **Observação:**  
+> Os tutoriais utilizam o compilador `g++` como exemplo padrão.  Os projetos podem ser compilados com outros compiladores, porém podem ser necessárias adaptações nos comandos de compilação, configuração de bibliotecas (como a SFML) e no ambiente de desenvolvimento.
 
 ### Execução
 1. Baixe e extraia o arquivo `.zip` com os projetos
